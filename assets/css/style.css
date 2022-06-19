@@ -275,6 +275,7 @@ img{
     right: 0;
     bottom: 0;
     width: 295px;
+    z-index: -1;
 }
 
 .home__img img {
