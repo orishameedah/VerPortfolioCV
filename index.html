@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/perfil.jpg"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet' />
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Veronica</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">Work</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <!-- go to boxicons copy menu bar icons -->
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- HOME -->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Hi 
+                        <br/> I'm <span class="home__title-color">Veronica</span><br/>
+                        Web Designer
+                    </h1>
+                    <a href="#contact" class="button">Contact Me</a> &nbsp;&nbsp;&nbsp;
+                    <div class="popup button"  onclick="myFunction()"> Download CV
+                        <span class="popuptext" id="myPopup"> 
+                            <p style="color: #ffffff;
+                                      font-size: small;
+                                      cursor: none;
+                                      -webkit-transition: all 0.3s ease;
+                                      transition: all 0.3s ease;"
+                                      >
+                                      Hi! click on any format to download my cv
+                                    </p>
+                            <a href="https://docs.google.com/document/d/11uNd1bnrtMMTvDiTsMqOMcznTZ_8BVFx/edit?usp=sharing&ouid=111886387157827079498&rtpof=true&sd=true"  target="_">
+                                <button style="
+                                    font-size: 12px;
+                                    font-weight: 300;
+                                    padding: 5px 3px;
+                                    color: #3e99f4;
+                                    border-radius: 4px;
+                                    -webkit-transition: all 0.3s ease;
+                                    transition: all 0.3s ease;
+                                    display: inline-block;
+                                    margin-top: 0.5rem;
+                                    white-space: nowrap;
+                                    margin-right: 1rem;
+                                    border: none;
+                                    cursor: pointer;
+                                    ">  MSWord Format
+                                </button>
+                            </a>
+                            <a href= "https://drive.google.com/file/d/1S-XpGOwEwjD6EWKwtoFwb-D1bEgtxFTv/view?usp=sharing" target="_">
+                                <button style="
+                                    font-size: 12px;
+                                    font-weight: 300;
+                                    padding: 5px 3px;
+                                    color: #ec1839;
+                                    border-radius: 4px;
+                                    -webkit-transition: all 0.2s ease;
+                                    transition: all 0.2s ease;
+                                    display: inline-block;
+                                    white-space: normal;
+                                    border: none;
+                                    cursor: pointer;
+                                    ">PDF Format
+                                </button>
+                            </a>
+                        </span>
+                        </div>
+                    
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/hameedah-oyindamola-b6332822a/" class="home__social-icon">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://twitter.com/orishameedah" class="home__social-icon">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="https://github.com/orishameedah" class="home__social-icon">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <div class="home__img">
+                    <img src="assets/img/perfil.jpg" alt="Marlon Image"/>
+                </div>
+            </section>
+
+        <!-- ABOUT -->
+            <section class="about-section" id="about">
+                <h2 class="section-title">About</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="about Image"/>
+                    </div>
+                <div>
+                    <h2 class="about__subtitle">
+                        I'am Veronica
+                    </h2>
+                    <p class="about__text">
+                        I am a Web Developer, and I'm very passionate and dedicated to my work.With 10 years experience 
+                        as a professional Web Developer, I have acquired the skills and knowledge necessary to make your
+                        project a success.
+                    </p>
+                </div>
+            </div>
+            </section>
+        <!-- SKILLS -->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">
+                            Professional Skills
+                        </h2>
+                        <p class="skills__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat velit magni illum neque 
+                            numquam nobis nostrum illo perferendis fugiat rem delectus cum deserunt perspiciatis, iusto porro animi. 
+                            Ratione, sit exercitationem.
+                        </p>
+                        <!-- start html skill -->
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-html5 skills__icon'></i>                                
+                                    <span class="skills__name">HTML5</span>
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">
+                                        85%
+                                    </span>
+                                </div>
+                                <div class="skills__bar skills__html"></div>
+                            </div>
+                        <!-- end html skill -->
+                        <!-- start css skill -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>                                
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">
+                                    65%
+                                </span>
+                            </div>
+                            <div class="skills__bar skills__css"></div>
+                        </div>
+                    <!-- end css skill -->
+                    <!-- start js skill -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>                                
+                            <span class="skills__name">Javascript</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">
+                                50%
+                            </span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+                <!-- end js skill -->
+                <!-- start graphic design skill -->
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxs-paint skills__icon'></i>                                
+                        <span class="skills__name">Graphic Design</span>
+                    </div>
+                    <div>
+                        <span class="skills__percentage">
+                            55%
+                        </span>
+                    </div>
+                    <div class="skills__bar skills__gd"></div>
+                </div>
+                <!-- end graphic design skill -->
+                </div>
+                    <div>
+                        <img src="assets/img/work3.jpg" alt="work3 image" class="skills__img"/>
+                    </div>
+                </div>
+            </section>
+        <!-- WORK -->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="work 1"/>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="work 2"/>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="work 3"/>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="work 4"/>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="work 5"/>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="work 6"/>
+                    </div>
+                </div>
+            </section>
+        <!-- CONTACT -->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <!-- redirect user to your website after submitting to Google Sheets start -->
+                    <script type="text/javascript">
+                        var submitted = false;
+                    </script>
+                    <iframe
+                        name="hidden_iframe"
+                        id="hidden_iframe"
+                        style="display:none"
+                        onload="if(submitted){window.location='#';}"
+                    ></iframe>
+                    <!-- redirect user to your website after submitting to Google Sheets end -->
+                    <form 
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSepSVcWezQS3Z3j0VhPOHC7ZwCuAL3702z0oyevqwc86GFgVw/formResponse"
+                    class="contact__form"
+                    method="POST"
+                    target="hidden_iframe"
+                    onsubmit="submitted=true"
+                    >
+                        <input
+                            type="text"
+                            placeholder="Name"
+                            class="contact__input"
+                            name="entry.2139379459"
+                        />
+                        <input
+                            type="email"
+                            placeholder="Email"
+                            class="contact__input"
+                            name="entry.469222581"
+                        />
+                        <textarea
+                            id=""
+                            placeholder="Message"
+                            cols="0"
+                            rows="10"
+                            class="contact__input"
+                            name="entry.2121435911"
+                        ></textarea>
+                        <button type="submit" class="contact__button button">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer__title">Veronica</p>
+        <div class="footer__social">
+            <a href="https://web.facebook.com/profile.php?id=100069292196336" class="footer__icon">
+                <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/hameedah-oyindamola-b6332822a/" class="footer__icon">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://twitter.com/orishameedah" class="footer__icon">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </div>
+        <p>&#169; 2022 copyright all right reserved</p>
+    </footer>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+<!-- 
+    - google search boxicons.com, inorder to use icon in our html page.
+    - click on usage and scroll down to Usage as a Font to copy this link
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    - google search scrollrevealjs.org inorder to apply smooth scroll onto the html page.
+    - click on Guide, go to Quick Start select then copy this HTML code
+    <script src="https://unpkg.com/scrollreveal"></script>
+    - pass it o
+ -->
